@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "ZodiacServer";
+
+package spring;
+
+service SpringSign{
+	rpc GetSpringSign (GetSpringSignRequest) returns (GetSpringSignResponse);
+}
+
+message GetSpringSignRequest{
+	string date = 1;
+}
+
+message GetSpringSignResponse{
+	string sign = 1;
+}
+
