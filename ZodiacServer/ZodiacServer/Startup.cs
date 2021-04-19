@@ -33,6 +33,7 @@ namespace ZodiacServer
             {
                 endpoints.MapGrpcService<ZodiacService>();
                 endpoints.MapGrpcService<SpringSignsService>();
+                endpoints.MapGrpcService<SummerSignsService>();
 
                 endpoints.MapGet("/", async context =>
                 {
