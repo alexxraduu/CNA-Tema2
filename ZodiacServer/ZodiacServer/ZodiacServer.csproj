@@ -9,6 +9,7 @@
     <Protobuf Include="Protos\spring.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\summer.proto" GrpcServices="Server" />
     <Protobuf Include="Protos\autumn.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\winter.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
